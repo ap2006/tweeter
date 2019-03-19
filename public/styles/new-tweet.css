@@ -19,3 +19,7 @@
 section.new-tweet span.counter {
     float: right;
 }
+
+section.new-tweet span.counter.invalid {
+  color: #B22222;
+}
