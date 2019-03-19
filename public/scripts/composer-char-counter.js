@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  console.log("document loaded");
+  $(".new-tweet textarea").bind("input", (event) => {
+      console.log(event);
+    });
 });
