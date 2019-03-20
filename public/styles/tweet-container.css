@@ -31,6 +31,10 @@
   margin: 0;
 }
 
+.tweets header p {
+  padding-right: 8px;
+}
+
 .tweets .tweet .content {
   display: flex;
   padding: 0 8px;
@@ -38,5 +42,6 @@
 
 .tweets footer {
   border-top-style: groove;
+  border-bottom-style: groove;
   padding: 8px;
 }
