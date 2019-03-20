@@ -86,6 +86,20 @@
 //     // Test / driver code (temporary)
 //     console.log($tweet); // to see what it looks like
 //     $('.tweets').append($tweet); // to add it to the page so we can make sure it's got all the right elements, classes, etc.
+
+
+  $("#new-tweet").submit(function(event) {
+    event.preventDefault();
+
+    $.ajax({
+      url: $(this).attr("action"),
+      method: "POST",
+      data: $(this).serialize()
+    }).done(function() {
+      console.log("tweet submitted")
+    })
+  })
+
 });
 
 
