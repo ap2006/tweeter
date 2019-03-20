@@ -1,0 +1,42 @@
+.tweets {
+  margin-top: 24px;
+  background-color: #FFFAFA;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.tweets .tweet:hover {
+  opacity: 0.8;
+  background-color: #B0E0E6;
+}
+
+.tweets header {
+  display: flex;
+  background-color: #F0FFF0;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tweets header div {
+  display: flex;
+}
+
+.tweets header img {
+  height: 40px;
+  width: 40px;
+}
+
+.tweets header h1 {
+  margin: 0;
+}
+
+.tweets .tweet .content {
+  display: flex;
+  padding: 0 8px;
+}
+
+.tweets footer {
+  border-top-style: groove;
+  padding: 8px;
+}
