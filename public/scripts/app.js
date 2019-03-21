@@ -73,18 +73,29 @@ $(document).ready(function() {
       // console.log("tweet submitted")
     })
 //AJAX GET request
+// function loadTweets() {
+// console.log("I'm loading tweets")
+//   $.ajax({
+//     url: "/tweets/",
+//     type: "GET",
+//     success: function (data) {
+//       // console.log("Success: ", data);
+//       renderTweets(data)
+//     }
+//   })
+// }
+  // loadTweets()
+})
 function loadTweets() {
-
-      $.ajax({
-        url: "/tweets/",
-        type: "GET",
-        success: function (data) {
-          // console.log("Success: ", data);
-          renderTweets(data)
-        }
-      })
+console.log("I'm loading tweets")
+  $.ajax({
+    url: "/tweets/",
+    type: "GET",
+    success: function (data) {
+      // console.log("Success: ", data);
+      renderTweets(data)
     }
-
-    loadTweets()
   })
+}
+loadTweets()
 })
