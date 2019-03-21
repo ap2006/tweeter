@@ -28,3 +28,32 @@
   padding-left: 10px;
 /* ... */
 }
+
+#nav-bar .button {
+  height: 75%;
+  width: 200px;
+  position: relative;
+  top: 12%;
+  float: right;
+  opacity: 0.85;
+  font-size: 25px;
+  border-radius: 15px;
+  color: #00a087;
+  background-color: #e8fdff;
+  border: 1px solid #000000;
+}
+
+#nav-bar .button img {
+  height: 35px;
+  width: 35px;
+  float: left;
+}
+
+#nav-bar .button:hover {
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+#nav-bar .button:focus {
+  outline: 0;
+}
