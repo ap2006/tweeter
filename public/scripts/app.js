@@ -49,12 +49,18 @@ $(document).ready(function() {
     var input = $("#new-tweet > textarea").val()
     // console.log("Hi", $("#new-tweet > textarea").val());
     // you can also do if input.length === 0
+    $("#new-tweet .errors").empty()
+    //removing the error message see above
     if (input === "") {
-      alert( "You cannot submit an empty tweet")
+      var errorElement = $("<p>")
+      errorElement.text( "You cannot submit an empty tweet")
+      $("#new-tweet .errors").append(errorElement)
       return
     }
     else if (input.length > 140) {
-      alert("You have entered too many characters!")
+      var errorElement = $("<p>")
+      errorElement.text( "Your tweet is too long!")
+      $("#new-tweet .errors").append(errorElement)
       return
     }
 
