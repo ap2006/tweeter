@@ -3,6 +3,12 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
+ function escape(str) {
+ var div = document.createElement('div');
+ div.appendChild(document.createTextNode(str));
+ return div.innerHTML;
+}
+
 $(document).ready(function() {
   function createTweetElement (tweet) {
     var ts = new Date(tweet.created_at)
@@ -15,7 +21,7 @@ $(document).ready(function() {
        '<p>' + tweet.user.handle + '</p>' +
        '</header>' +
        '<div class="content">' +
-       '<p>' + tweet.content.text + '</p>' +
+       '<p>' + escape(tweet.content.text) + '</p>' +
        '</div>' +
        '<footer>' +
        '<span>' + ts.toDateString() + '</span>' +
