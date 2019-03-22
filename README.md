@@ -15,3 +15,21 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+
+Tweeter Homepage
+
+![alt tag](https://github.com/ap2006/tweeter/blob/master/docs/A%20-%20Homepage%20Tweeter.png "Tweeter Homepage")
+
+
+
+Display 'Compose' box after hitting 'Compose
+
+![alt tag](https://github.com/ap2006/tweeter/blob/master/docs/B%20-%20Display%20Compose%20Box%20after%20hitting%20'Compose'.png "Display 'Compose' box after hitting 'Compose'")
+
+
+Error message for empty tweet
+
+![alt tag](https://github.com/ap2006/tweeter/blob/master/docs/C%20-%20Error%20message%20for%20empty%20tweet.png "Error message for empty tweet")
