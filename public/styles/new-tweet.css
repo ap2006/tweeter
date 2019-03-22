@@ -13,10 +13,6 @@ section.new-tweet textarea {
     width: 100%;
 }
 
-section.new-tweet input {
-
-}
-
 section.new-tweet span.counter {
     float: right;
 }

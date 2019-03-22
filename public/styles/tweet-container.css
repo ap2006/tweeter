@@ -46,10 +46,12 @@
   padding: 8px;
 }
 
-.tweets .tweet .footer {
+.tweet .footer {
   opacity: 0;
+  float: right;
 }
 
-.tweets .tweet .footer:hover {
+ .tweet:hover .footer {
   opacity: 1;
+  float: right;
 }
