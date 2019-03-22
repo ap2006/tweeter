@@ -24,6 +24,11 @@ $(document).ready(function() {
        '</div>' +
        '<footer>' +
        '<span>' + ts.toDateString() + '</span>' +
+       '<div class="footer">' +
+       '<img src="/images/icons8-retweet-24.png">' +
+       '<img src="/images/icons8-thumbs-up-26.png">' +
+       '<img src="/images/icons8-twitter-26.png">' +
+       '</div>' +
        '</footer>' +
        '</article>'
     console.log(tweet)

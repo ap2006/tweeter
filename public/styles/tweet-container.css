@@ -45,3 +45,11 @@
   border-bottom-style: groove;
   padding: 8px;
 }
+
+.tweets .tweet .footer {
+  opacity: 0;
+}
+
+.tweets .tweet .footer:hover {
+  opacity: 1;
+}
